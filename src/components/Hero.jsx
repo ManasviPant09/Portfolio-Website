@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { StarsCanvas } from './canvas';
+import { CubeCanvas, StarsCanvas } from './canvas';
 
 const Hero = () => {
   return (
@@ -25,7 +25,9 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      <CubeCanvas />
     </section>
   );
 }
+
 export default Hero;

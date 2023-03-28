@@ -24,5 +24,6 @@ const Socials = () => {
     </div>
     </>
   );
-};
+}
+
 export default SectionWrapper(Socials, "contact");

@@ -97,7 +97,7 @@ import {
       icon: javascript,
     },
     {
-      name: "React JS",
+      name: "React.js",
       icon: reactjs,
     },
     {
@@ -105,11 +105,11 @@ import {
       icon: redux,
     },
     {
-      name: "Node JS",
+      name: "Node.js",
       icon: nodejs,
     },
     {
-      name: "Express JS",
+      name: "Express.js",
       icon: Express,
     },    
     {
@@ -121,7 +121,7 @@ import {
       icon: mysql,
     },
     {
-      name: "Three JS",
+      name: "Three.js",
       icon: threejs,
     },
     {

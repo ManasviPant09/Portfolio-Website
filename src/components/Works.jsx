@@ -77,6 +77,6 @@ const Works = () => {
       </div>
     </>
   );
-};
+}
 
 export default SectionWrapper(Works, "works");

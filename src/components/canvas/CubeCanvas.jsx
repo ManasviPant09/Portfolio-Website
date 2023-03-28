@@ -3,7 +3,6 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 import "./CubeCanvasStyle.css";
-import { technologies } from '../../constants';
 
 const Cube = () => {
   const cubeRef = useRef();
@@ -20,7 +19,7 @@ const Cube = () => {
     
   return (
     <mesh rotation={[90,0,20]} ref={cubeRef}>
-        <boxBufferGeometry attach="geometry" args={[2.5,2.5,2.5]}/>
+        <boxBufferGeometry attach="geometry" args={[1.5,1.5,1.5]}/>
         <meshLambertMaterial attach="material" color="white"/>
         <meshBasicMaterial attachArray="material" map={texture1} />
     </mesh>
@@ -36,4 +35,5 @@ const CubeCanvas = () =>{
         </Canvas>
     );
 }
+
 export default CubeCanvas;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import {About, Contact, Hero, Navbar, Tech, Works, StarsCanvas, CubeCanvas, Socials } from "./components";
+import {About, Contact, Hero, Navbar, Tech, Works, CubeCanvas, Socials } from "./components";
 
 const App = () => {
   return (
@@ -9,7 +9,6 @@ const App = () => {
       <div className="bg-heer-pattern bg-cover bg-no-repeat bg-center">
         <Navbar />
         <Hero />
-        <CubeCanvas />
         <About />
         <Tech />
       </div>
@@ -22,4 +21,5 @@ const App = () => {
     </BrowserRouter>
   );
 }
+
 export default App;
