@@ -27,6 +27,7 @@ import Java from "./tech/Java.png";
 import Firebase from "./tech/Firebase.png";
 import vscode from "./tech/vscode.png";
 import threejs from "./tech/threejs.svg";
+import Developer from "./tech/Developer.png";
 
 import Realdeal from "./Realdeal.png";
 import Spotify from "./Spotify.png";
@@ -63,5 +64,6 @@ export {
   Spotify,
   News,
   linkedin,
-  medium
+  medium,
+  Developer
 };

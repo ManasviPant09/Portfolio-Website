@@ -26,7 +26,8 @@ import {
     threejs,
     github,
     linkedin,
-    medium
+    medium,
+    Developer
   } from "../assets";
   
   export const navLinks = [
@@ -179,4 +180,11 @@ import {
       link: "https://medium.com/@manasvipant1106",
     }
   ];
-export { services, technologies, socials, projects };
+
+  const developer = [
+    {
+      name: "Developer",
+      icon: Developer
+    }
+  ]
+export { services, technologies, socials, projects, developer };

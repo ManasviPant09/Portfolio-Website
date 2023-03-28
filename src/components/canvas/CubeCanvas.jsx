@@ -3,11 +3,12 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 import "./CubeCanvasStyle.css";
+import { Developer } from '../../assets';
 
 const Cube = () => {
   const cubeRef = useRef();
   const textureLoader = new THREE.TextureLoader();
-  const texture1 = textureLoader.load("src/assets/tech/Developer.png");
+  const texture1 = textureLoader.load(Developer);
   
   useFrame(() => {
     cubeRef.current.rotation.x += 0.01;
