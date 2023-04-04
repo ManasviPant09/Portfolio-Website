@@ -27,7 +27,9 @@ import {
     github,
     linkedin,
     medium,
-    Developer
+    Developer,
+    nextjs,
+    Linktree
   } from "../assets";
   
   export const navLinks = [
@@ -126,6 +128,10 @@ import {
       icon: threejs,
     },
     {
+      name: "Next.js",
+      icon: nextjs,
+    },
+    {
       name: "Git",
       icon: git,
     },
@@ -142,24 +148,27 @@ import {
   const projects = [
     {
       name: "REALDEAL (E-Commerce Web Application)",
-      description:
-        "An e-commerce website built with Node.js, Express.js, React.js and MongoDB. It uses Redux for managing the state of the application. It uses JWT for managing the authentication process. Also, it utilizes Stripe for the payment checkout process.",
+      description: "An e-commerce website built with Node.js, Express.js, React.js and MongoDB. It uses Redux for managing the state of the application. It uses JWT for managing the authentication process. Also, it utilizes Stripe for the payment checkout process.",
       image: Realdeal,
       source_code_link: "https://github.com/ManasviPant09/Realdeal-Fullstack",
     },
     {
       name: "Spotify Clone using React JS",
-      description:
-        "This project is an attempt to build a Spotify Clone by using React JS and Styled Components. Also, it utilizes the Spotify API and Context API for its working. The Context API has been utilized to manage the state of the application.",
+      description: "This project is an attempt to build a Spotify Clone by using React JS and Styled Components. Also, it utilizes the Spotify API and Context API for its working. The Context API has been utilized to manage the state of the application.",
       image: Spotify,
       source_code_link: "https://github.com/ManasviPant09/Spotify-Clone-Using-React-JS",
     },
     {
       name: "News App using React JS",
-      description:
-        "In the given project, React JS and Tailwind CSS and Redux have been utilized to build a responsive UI for a news application. Authentication has been set up using Firebase.",
+      description: "In the given project, React JS and Tailwind CSS and Redux have been utilized to build a responsive UI for a news application. Authentication has been set up using Firebase.",
       image: News,
       source_code_link: "https://github.com/ManasviPant09/News-App-React",
+    },
+    {
+      name: "Linktree using Next JS",
+      description: "A linktree clone built using Next.js, React.js deployed using Vercel which makes use of Tailwind CSS for styling.",
+      image: Linktree,
+      source_code_link: "https://github.com/ManasviPant09/Linktree-using-Next.js",
     },
   ];
 

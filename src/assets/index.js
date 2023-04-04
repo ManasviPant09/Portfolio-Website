@@ -27,11 +27,13 @@ import Java from "./tech/Java.png";
 import Firebase from "./tech/Firebase.png";
 import vscode from "./tech/vscode.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
 import Developer from "./tech/Developer.png";
 
 import Realdeal from "./Realdeal.png";
 import Spotify from "./Spotify.png";
 import News from "./News.png";
+import Linktree from "./Linktree.png";
 
 export {
   logo,
@@ -65,5 +67,7 @@ export {
   News,
   linkedin,
   medium,
-  Developer
+  Developer,
+  nextjs,
+  Linktree
 };
