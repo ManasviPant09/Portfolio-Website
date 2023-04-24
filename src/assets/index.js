@@ -34,6 +34,8 @@ import Realdeal from "./Realdeal.png";
 import Spotify from "./Spotify.png";
 import News from "./News.png";
 import Linktree from "./Linktree.png";
+import Catalog from "./Catalog.png";
+
 
 export {
   logo,
@@ -69,5 +71,6 @@ export {
   medium,
   Developer,
   nextjs,
-  Linktree
+  Linktree,
+  Catalog
 };
